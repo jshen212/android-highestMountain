@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 int randomNum = rand.nextInt(mountains.length);
 
                 showTextView.setText(mountains[randomNum]);
-
             }
         });
 
